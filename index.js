@@ -24196,7 +24196,16 @@ class rM {
     }
 }
 const oM = [{
-        id: 0,
+    id: 0,
+    name: "Love Calculator",
+    description: "A simple love calculator to calculate love between lovers or couples",
+    image: "images/projects/lovecalculator.png",
+    tags: ["javascript", "html", "css"],
+    liveview: "https://lovecalcu.com",
+    github: "https://lovecalcu.com",
+    alt: "A simple love calculator to calculate love between lovers or couples"
+    }, {
+        id: 1,
         name: "Marketoze",
         description: "Creative digital marketing agency providing value services globally",
         image: "images/projects/marketoze.jpeg",
@@ -24204,8 +24213,9 @@ const oM = [{
         liveview: "https://marketoze.agency",
         github: "https://marketoze.agency",
         alt: "Creative digital marketing agency providing value services globally"
-    }, {
-        id: 1,
+    },
+     {
+     id: 2,
         name: "Mentorship By Dilawar",
         description: "Mentorship by dilawar - The top rated mentorship for everyone",
         image: "images/projects/dilawarmentorship.jpeg",
@@ -24213,16 +24223,7 @@ const oM = [{
         liveview: "https://mentorshipbydilawar.online/",
         github: "https://mentorshipbydilawar.online/",
         alt: "Mentorship by dilawar - The top rated mentorship for everyone"
-    },
-     {
-        id: 2,
-        name: "Love Calculator",
-        description: "A simple love calculator to calculate love between lovers or couples",
-        image: "images/projects/lovecalculator.png",
-        tags: ["javascript", "html", "css"],
-        liveview: "https://lovecalcu.com",
-        github: "https://lovecalcu.com",
-        alt: "A simple love calculator to calculate love between lovers or couples"
+       
     }, 
     
     {
