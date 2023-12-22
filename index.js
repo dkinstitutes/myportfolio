@@ -23908,7 +23908,7 @@ const tM = [{
     path: "models/contact/shadow-baked.jpg"
 }, 
 {
-    name: "davidImage",
+    name: "dilawarImage",
     type: "texture",
     path: "images/mynewpro.png"
 }
