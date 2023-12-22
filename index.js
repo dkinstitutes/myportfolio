@@ -21669,7 +21669,7 @@ class dw {
         this.sizes.portrait ? (this.sprite.scale.set(2.61, 5.05), this.sprite.position.set(-.05, 2.7, 0)) : (this.sprite.scale.set(2.61, 5.05), this.sprite.position.set(-.05, 2.15, 0))
     }
     setSprite() {
-        this.texture = this.resources.items.davidImage, this.material = new Pn({
+        this.texture = this.resources.items.dilawarImage, this.material = new Pn({
             map: this.texture,
             depthTest: !1,
             fog: !1,
@@ -21697,7 +21697,7 @@ class pw {
             characterLandscapeY: .27,
             characterPortraitScale: 1.7
         });
-        this.experience = new ye, this.character = this.experience.world.character, this.contactScene = this.experience.world.contact.scene, this.david = this.experience.world.contact.david, this.exclamationMark = this.experience.world.contact.exclamationMark, this.sizes = this.experience.sizes, this.sounds = this.experience.sounds, this.setMaterialsToHide()
+        this.experience = new ye, this.character = this.experience.world.character, this.contactScene = this.experience.world.contact.scene, this.dilawar = this.experience.world.contact.dilawar, this.exclamationMark = this.experience.world.contact.exclamationMark, this.sizes = this.experience.sizes, this.sounds = this.experience.sounds, this.setMaterialsToHide()
     }
     playIdle() {
         this.played || (this.character.body.model.position.y = this.experience.world.contact.scene.model.position.y + this.parameters[this.sizes.portrait ? "characterPortraitY" : "characterLandscapeY"], this.sizes.portrait && this.character.body.model.scale.set(this.parameters.characterPortraitScale, this.parameters.characterPortraitScale, this.parameters.characterPortraitScale), this.character.body.setAllToOriginal(), this.character.face.material.map = this.character.face.textures.sleepy, this.character.animations.actions.current._clip.name != "standing-idle" && this.character.animations.play("standingIdle", 0))
@@ -21710,7 +21710,7 @@ class pw {
         }), P.delayedCall(.15, () => {
             this.character.animations.actions.current._clip.name === "standing-idle" && (this.sounds.play("gasp"), this.character.animations.play("contact", .1))
         }), this.transtionDelay = P.delayedCall(.2, () => {
-            this.startedTransition = !0, this.timeline.to(this.david.material, {
+            this.startedTransition = !0, this.timeline.to(this.dilawar.material, {
                 opacity: 1,
                 duration: this.parameters.transitionDuration,
                 ease: wi.easeIn
@@ -21726,7 +21726,7 @@ class pw {
     resetCharacter() {
         (this.character.body.materials.bakedMaterial.transparent || this.materialsToHide[0].opacity != 1 || !this.startedTransition) && (this.experience.ui.landingPage.visible || this.experience.ui.about.animations.resetCharacterToPosition(), this.character.body.model.scale.set(1, 1, 1), this.character.body.materials.bakedMaterial.transparent = !1, this.character.body.materials.bakedMaterial.needsUpdate = !0, this.character.face.model.renderOrder = 0, this.materialsToHide.forEach(e => {
             e.opacity = 1
-        }), this.timeline && this.timeline.kill(), this.transtionDelay && this.transtionDelay.kill(), this.david.material.opacity != 1 && this.played && P.to(this.david.material, {
+        }), this.timeline && this.timeline.kill(), this.transtionDelay && this.transtionDelay.kill(), this.dilawar.material.opacity != 1 && this.played && P.to(this.dilawar.material, {
             opacity: 1,
             duration: this.parameters.transitionDuration,
             ease: wi.easeIn
@@ -22090,7 +22090,7 @@ class bw {
 class ww {
     constructor() {
         this.experience = new ye, this.resources = this.experience.resources, this.resources.on("ready", () => {
-            this.fog = new fw, this.background = new aw, this.landingPage = {}, this.landingPage.roomShadow = new Yb, this.landingPage.room = new jb, this.landingPage.desktops = new Jb, this.landingPage.mouse = new lw, this.landingPage.messagePopUp = new cw, this.landingPage.tones = new xw, this.landingPage.speaker = new vw, this.landingPage.penguin = new bw, this.lab = {}, this.lab.model = new Kb, this.lab.shadow = new Zb, this.lab.tube = new ew, this.lab.screen = new tw, this.lab.drop = new nw, this.lab.bubbles = new iw, this.lab.testTubes = new sw, this.contact = {}, this.contact.scene = new hw, this.contact.shadow = new uw, this.contact.david = new dw, this.character = {}, this.character.body = new mw, this.character.face = new gw, this.character.animations = new yw, this.character.intervals = new _w, this.contact.animation = new pw
+            this.fog = new fw, this.background = new aw, this.landingPage = {}, this.landingPage.roomShadow = new Yb, this.landingPage.room = new jb, this.landingPage.desktops = new Jb, this.landingPage.mouse = new lw, this.landingPage.messagePopUp = new cw, this.landingPage.tones = new xw, this.landingPage.speaker = new vw, this.landingPage.penguin = new bw, this.lab = {}, this.lab.model = new Kb, this.lab.shadow = new Zb, this.lab.tube = new ew, this.lab.screen = new tw, this.lab.drop = new nw, this.lab.bubbles = new iw, this.lab.testTubes = new sw, this.contact = {}, this.contact.scene = new hw, this.contact.shadow = new uw, this.contact.dilawar = new dw, this.character = {}, this.character.body = new mw, this.character.face = new gw, this.character.animations = new yw, this.character.intervals = new _w, this.contact.animation = new pw
         })
     }
     update() {
