@@ -606,20 +606,20 @@
 
             </div>
         </section>
-      <!-- WhatsApp button container -->
-<div class="whatsapp-container" id="whatsapp-container" style="display: none;">
+<!-- WhatsApp button container -->
+<div class="whatsapp-container" id="whatsapp-container">
     <a href="https://api.whatsapp.com/send?phone=923369295295&text=I%20need%20some%20assistance%20for%20my%20project" target="_blank" rel="noopener noreferrer">
         <img src="images/wabusiness.webp" alt="WAbusiness">
     </a>
 </div>
 
 <script>
-    // Wait for the entire page to fully load
-    window.onload = function() {
+    // Wait for the entire page to fully load, including images and other resources
+    window.addEventListener('load', function() {
         // Display the WhatsApp button
         var whatsappContainer = document.getElementById('whatsapp-container');
         whatsappContainer.style.display = 'block';
-    };
+    });
 </script>
 <!-- Ended WhatsApp button container -->
         <footer class="row center">
