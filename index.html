@@ -49,30 +49,30 @@
   gtag('config', 'G-GH9XTNZWRZ');
 </script>
 <!-- End of google analytics -->
-<style>
+     <style>
     .whatsapp-container {
-        display: none; /* Initially hide the button */
-        position: fixed;
-        bottom: 32px;
-        right: 10px;
-        animation: float 3s infinite ease-in-out;
-        z-index: 9999;
-    }
-
-    .whatsapp-container img {
-        width: 70px;
-        height: auto;
-    }
-
-    @keyframes float {
-        0%, 100% {
-            transform: translateY(0);
+            display: none; /* Initially hide the button */
+            position: fixed;
+            bottom: 32px;
+            right: 10px;
+            animation: float 3s infinite ease-in-out;
+            z-index: 9999;
         }
-        50% {
-            transform: translateY(-20px);
+
+        .whatsapp-container img {
+            width: 70px;
+            height: auto;
         }
-    }
-</style>
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-20px);
+            }
+        }
+    </style>
 </head>
 
 <body>
@@ -606,22 +606,25 @@
 
             </div>
         </section>
-<!-- WhatsApp button container -->
-<div class="whatsapp-container" id="whatsapp-container">
-    <a href="https://api.whatsapp.com/send?phone=923369295295&text=I%20need%20some%20assistance%20for%20my%20project" target="_blank" rel="noopener noreferrer">
-        <img src="images/wabusiness.webp" alt="WAbusiness">
-    </a>
-</div>
+        <!-- WhatsApp button container -->
+    <div class="whatsapp-container" id="whatsapp-container">
+        <a href="https://api.whatsapp.com/send?phone=923369295295&text=I%20need%20some%20assistance%20for%20my%20project" target="_blank" rel="noopener noreferrer">
+            <img src="images/wabusiness.webp" alt="WAbusiness">
+        </a>
+    </div>
 
-<script>
-    // Wait for the entire page to fully load, including images and other resources
-    window.addEventListener('load', function() {
-        // Display the WhatsApp button
-        var whatsappContainer = document.getElementById('whatsapp-container');
-        whatsappContainer.style.display = 'block';
-    });
-</script>
-<!-- Ended WhatsApp button container -->
+    <script>
+        // Wait for the document to fully load
+        document.addEventListener('DOMContentLoaded', function() {
+            // Delay the initial display by 5 seconds
+            setTimeout(function() {
+                // Display the WhatsApp button
+                var whatsappContainer = document.getElementById('whatsapp-container');
+                whatsappContainer.style.display = 'block';
+            }, 5000);
+        });
+    </script>
+          <!-- Ended WhatsApp button container -->
         <footer class="row center">
             <span>&copy; Dilawar Khan</span>
 
