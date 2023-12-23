@@ -24336,7 +24336,7 @@ class lM {
     }
 }
 const cM = [{
-    name: "Website Development",
+    name: "Web Programming",
     width: "92%"
 }, {
     name: "Digital Marketing",
