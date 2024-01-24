@@ -24960,10 +24960,12 @@ class gM {
         }, {
             name: "work",
             elements: [document.querySelectorAll(".menu-item")[2]]
-        }, {
-            name: "contact",
-            elements: [document.querySelectorAll(".menu-item")[3], document.getElementById("landing-cta-button")]
-        }]);
+        }, 
+			   // {
+      //       name: "contact",
+      //       elements: [document.querySelectorAll(".menu-item")[3], document.getElementById("landing-cta-button")]
+      //   }
+			  ]);
         this.experience = new ye, this.transition = this.experience.ui.transition, this.scrollIcon = this.experience.ui.scrollIcon, this.landingPage = this.experience.ui.landingPage, this.scroll = this.experience.ui.scroll, this.renderer = this.experience.renderer, this.waypoints = this.experience.waypoints, this.character = this.experience.world.character, this.menu = this.experience.ui.menu.main, this.background = this.experience.world.background, this.room = this.experience.world.landingPage.room, this.sections = this.experience.ui.sections, this.sounds = this.experience.sounds, this.sizes = this.experience.sizes, this.contactAnimation = this.experience.world.contact.animation, this.menu.on("open", () => this.updateActiveItem()), this.addClickEventListeners()
     }
     addClickEventListeners() {
