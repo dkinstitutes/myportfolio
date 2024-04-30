@@ -24210,8 +24210,8 @@ const oM = [{
         description: "Creative digital marketing agency providing value services globally",
         image: "images/projects/marketoze.jpeg",
         tags: ["javascript", "backend", "html", "css"],
-        liveview: "https://marketoze.agency",
-        github: "https://marketoze.agency",
+        liveview: "https://marketoze.company",
+        github: "https://marketoze.company",
         alt: "Creative digital marketing agency providing value services globally"
     },
      {
