@@ -24217,12 +24217,12 @@ const oM = [{
      {
      id: 2,
         name: "Mentorship with A.I",
-        description: "Mentorship with A.I - Your Premier and Trusted Learning Partner",
+        description: "Your Premier and Trusted Learning Partner",
         image: "images/projects/mentorship-with-ai.jpeg",
         tags: ["javascript", "api", "html", "css"],
         liveview: "https://mentorshipwithai.com/",
         github: "https://mentorshipwithai.com/",
-        alt: "Mentorship with A.I - Your Premier and Trusted Learning Partner"
+        alt: "Your Premier and Trusted Learning Partner"
        
     }, 
     
