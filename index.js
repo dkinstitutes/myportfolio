@@ -24207,12 +24207,12 @@ const oM = [{
     }, {
         id: 1,
         name: "Marketoze",
-        description: "Creative digital marketing agency providing value services globally",
+        description: "Your Premier and Trusted Business Partner",
         image: "images/projects/marketoze.jpeg",
         tags: ["javascript", "backend", "html", "css"],
         liveview: "https://marketoze.company",
         github: "https://marketoze.company",
-        alt: "Creative digital marketing agency providing value services globally"
+        alt: "Your Premier and Trusted Business Partner"
     },
      {
      id: 2,
@@ -24233,7 +24233,7 @@ const oM = [{
         image: "images/projects/portfolio.jpg",
         tags: ["webgl", "javascript", "html", "css"],
         twitter: "#",
-        alt: "Dilawar portfolio project 2024 threejs blender 3d design",
+        alt: "Dilawar portfolio project 2024 3d design",
         bannerIcons: [{
             src: "images/cssda-icon.png",
             alt: "cssda icon site of the day"
