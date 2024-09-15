@@ -24342,13 +24342,13 @@ const cM = [{
     name: "Digital Marketing",
     width: "90%"
 }, {
-    name: "JavaScript",
+    name: "E-Commerce",
     width: "88%"
 }, {
-    name: "HTML + CSS",
+    name: "Blogging",
     width: "92%"
 }, {
-    name: "SEO",
+    name: "Freelancing",
     width: "88%"
 }];
 class hM {
